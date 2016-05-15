@@ -48,7 +48,7 @@
 
 ###搭建方法
 * 下载最新版本
-* 在mysql数据库中建一个comperformance数据库，然后导入sql
+* 在mysql数据库中建一个student_performance_platform数据库，然后导入sql
 * 修改settings中的DATABASES
 * sudo easy_install django-grappelli
 * sudo easy_install xlrd
