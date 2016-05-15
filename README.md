@@ -46,21 +46,31 @@
 20. 查看院系以班级为单位的综合成绩情况
 21. 查看所有人的互评信息
 
-#搭建方法
-*下载最新版本
-*在mysql数据库中建一个comperformance数据库，然后导入sql
-*修改settings中的DATABASES
-*sudo easy_install django-grappelli
-*sudo easy_install xlrd
-*sudo easy_install pil
-*python manage.py runserver
-*用户名：admin1990 密码：admin1990
-*登录
+###搭建方法
+* 下载最新版本
+* 在mysql数据库中建一个comperformance数据库，然后导入sql
+* 修改settings中的DATABASES
+* sudo easy_install django-grappelli
+* sudo easy_install xlrd
+* sudo easy_install pil
+* python manage.py runserver
+* 用户名：admin1990 密码：admin1990
+* 登录
 
 ##安装问题
 
-###关于验证码无法显示问题，可以参考：
-*http://www.douban.com/group/topic/12636401/
-*http://stackoverflow.com/questions/3544155/need-help-with-a-pil-error-ioerror-decoder-zip-not-available
-*http://hi.baidu.com/wbwylbt/item/2f093d3f50433699b90c0326
+#关于验证码无法显示问题，可以参考：
+* http://www.douban.com/group/topic/12636401/
+* http://stackoverflow.com/questions/3544155/need-help-with-a-pil-error-ioerror-decoder-zip-not-available
+#启动错误问题
+* No module named _imagingft
+先安装freetype
+$ wget http://nchc.dl.sourceforge.net/project/freetype/freetype2/2.4.7/freetype-2.4.7.tar.gz
+$ tar -xvzf freetype-2.4.7.tar.gz
+$ cd freetype-2.4.7/
+$ ./configure --prefix=/usr/local
+$ make
+$ make install
+安装PIL
+下载PIL源码地址http://effbot.org/downloads/Imaging-1.1.6.tar.gz，解压进入目录python set.py install
 
