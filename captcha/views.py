@@ -80,6 +80,7 @@ def captcha_image(request, key):
         image = f(image)
 
     out = StringIO()
+    #如果使用PNG的话会不显示验证码
     image.save(out, "GIF")
     out.seek(0)
 
