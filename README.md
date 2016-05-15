@@ -67,13 +67,21 @@
 #启动错误问题
 * No module named _imagingft
 <br>
-先安装freetype
+1. 先安装freetype
 $ wget http://nchc.dl.sourceforge.net/project/freetype/freetype2/2.4.7/freetype-2.4.7.tar.gz
+<br>
 $ tar -xvzf freetype-2.4.7.tar.gz
+<br>
 $ cd freetype-2.4.7/
+<br>
 $ ./configure --prefix=/usr/local
+<br>
 $ make
+<br>
 $ make install
-安装PIL
+<br>
+2. 安装PIL
+<br>
 下载PIL源码地址http://effbot.org/downloads/Imaging-1.1.6.tar.gz，解压进入目录python set.py install
+<br>
 
