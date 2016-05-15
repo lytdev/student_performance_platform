@@ -60,10 +60,13 @@
 ##安装问题
 
 #关于验证码无法显示问题，可以参考：
+
 * http://www.douban.com/group/topic/12636401/
 * http://stackoverflow.com/questions/3544155/need-help-with-a-pil-error-ioerror-decoder-zip-not-available
+
 #启动错误问题
 * No module named _imagingft
+<br>
 先安装freetype
 $ wget http://nchc.dl.sourceforge.net/project/freetype/freetype2/2.4.7/freetype-2.4.7.tar.gz
 $ tar -xvzf freetype-2.4.7.tar.gz
