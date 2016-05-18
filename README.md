@@ -50,24 +50,7 @@
 * 下载最新版本
 * 在mysql数据库中建一个student_performance_platform数据库，然后导入sql
 * 修改settings中的DATABASES
-* sudo easy_install django-grappelli
-* sudo easy_install xlrd
-* sudo easy_install pil
-* python manage.py runserver
-* 用户名：admin1990 密码：admin1990
-* 登录
-
-##安装问题
-
-#关于验证码无法显示问题，可以参考：
-
-* http://www.douban.com/group/topic/12636401/
-* http://stackoverflow.com/questions/3544155/need-help-with-a-pil-error-ioerror-decoder-zip-not-available
-
-#启动错误问题
-* No module named _imagingft
-<br>
-1. 先安装freetype
+###先安装freetype
 $ wget http://nchc.dl.sourceforge.net/project/freetype/freetype2/2.4.7/freetype-2.4.7.tar.gz
 <br>
 $ tar -xvzf freetype-2.4.7.tar.gz
@@ -80,8 +63,24 @@ $ make
 <br>
 $ make install
 <br>
-2. 安装PIL
+* sudo pip install -r requirements.txt
+* python manage.py runserver
+* 用户名：admin1990 密码：admin1990
+* 登录
+
+##安装问题
+
+#关于验证码无法显示问题，可以参考：
+
+* http://www.douban.com/group/topic/12636401/
+* http://stackoverflow.com/questions/3544155/need-help-with-a-pil-error-ioerror-decoder-zip-not-available
+
+#错误问题整理
+###No module named _imagingft <br>
+可能是pillow没装好，可以尝试使用pil,下面是安装pil的步骤
 <br>
-下载PIL源码地址http://effbot.org/downloads/Imaging-1.1.6.tar.gz，解压进入目录python set.py install
+###安装PIL
+<br>
+下载PIL源码地址http://effbot.org/downloads/Imaging-1.1.6.tar.gz，解压进入目录python setup.py install
 <br>
 
