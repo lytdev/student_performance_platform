@@ -75,12 +75,10 @@ $ make install
 * http://www.douban.com/group/topic/12636401/
 * http://stackoverflow.com/questions/3544155/need-help-with-a-pil-error-ioerror-decoder-zip-not-available
 
-#错误问题整理
-###No module named _imagingft <br>
-可能是pillow没装好，可以尝试使用pil,下面是安装pil的步骤
 <br>
+如果部安装pilow的话就安装pil
 ###安装PIL
 <br>
-下载PIL源码地址http://effbot.org/downloads/Imaging-1.1.6.tar.gz，解压进入目录python setup.py install
+下载PIL源码地址 http://effbot.org/downloads/Imaging-1.1.6.tar.gz，解压进入目录 python setup.py install
 <br>
 
