@@ -51,19 +51,15 @@
 * 在mysql数据库中建一个student_performance_platform数据库，然后导入sql
 * 修改settings中的DATABASES
 ###先安装freetype
-$ wget http://nchc.dl.sourceforge.net/project/freetype/freetype2/2.4.7/freetype-2.4.7.tar.gz
-<br>
-$ tar -xvzf freetype-2.4.7.tar.gz
-<br>
-$ cd freetype-2.4.7/
-<br>
-$ ./configure --prefix=/usr/local
-<br>
-$ make
-<br>
-$ make install
-<br>
+* wget http://nchc.dl.sourceforge.net/project/freetype/freetype2/2.4.7/freetype-2.4.7.tar.gz
+* tar -xvzf freetype-2.4.7.tar.gz
+* cd freetype-2.4.7/
+* ./configure --prefix=/usr/local
+*  make
+*  make install
+###使用pip安装依赖
 * sudo pip install -r requirements.txt
+### 安装pillow pip install pillow==3.2.0(如果不安装pillow，可以使用下面的步骤安装pil)
 * python manage.py runserver
 * 用户名：admin1990 密码：admin1990
 * 登录
@@ -79,6 +75,8 @@ $ make install
 如果部安装pilow的话就安装pil
 ###安装PIL
 <br>
-下载PIL源码地址 http://effbot.org/downloads/Imaging-1.1.6.tar.gz，解压进入目录 python setup.py install
+* 下载PIL源码地址 http://effbot.org/downloads/Imaging-1.1.6.tar.gz
+* 解压进入目录
+* python setup.py install
 <br>
 
