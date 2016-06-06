@@ -47,19 +47,26 @@
 21. 查看所有人的互评信息
 
 ###搭建方法
+
 * 下载最新版本
 * 在mysql数据库中建一个student_performance_platform数据库，然后导入sql
 * 修改settings中的DATABASES
+
 ###先安装freetype
+
 * wget http://nchc.dl.sourceforge.net/project/freetype/freetype2/2.4.7/freetype-2.4.7.tar.gz
 * tar -xvzf freetype-2.4.7.tar.gz
 * cd freetype-2.4.7/
 * ./configure --prefix=/usr/local
 *  make
 *  make install
-###使用pip安装依赖
+
+##使用pip安装依赖
+
 * sudo pip install -r requirements.txt
-### 安装pillow pip install pillow==3.2.0(如果不安装pillow，可以使用下面的步骤安装pil)
+
+###安装pillow pip install pillow==3.2.0(如果不安装pillow，可以使用下面的步骤安装pil)
+
 * python manage.py runserver
 * 用户名：admin1990 密码：admin1990
 * 登录
