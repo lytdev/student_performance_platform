@@ -65,7 +65,8 @@
 
 * sudo pip install -r requirements.txt
 
-###安装pillow pip install pillow==3.2.0(如果不安装pillow，可以使用下面的步骤安装pil)
+* 安装pillow 
+<br/>pip install pillow==3.2.0(如果不安装pillow，可以使用下面的步骤安装pil)
 
 * python manage.py runserver
 * 用户名：admin1990 密码：admin1990
@@ -78,12 +79,11 @@
 * http://www.douban.com/group/topic/12636401/
 * http://stackoverflow.com/questions/3544155/need-help-with-a-pil-error-ioerror-decoder-zip-not-available
 
-<br>
 如果部安装pilow的话就安装pil
 ###安装PIL
-<br>
+
 * 下载PIL源码地址 http://effbot.org/downloads/Imaging-1.1.6.tar.gz
 * 解压进入目录
 * python setup.py install
-<br>
+
 
