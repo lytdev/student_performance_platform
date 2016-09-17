@@ -64,21 +64,22 @@
 * ./configure --prefix=/usr/local
 *  make
 *  make install
+
 ##运行django服务器
 * python manage.py runserver
 * 用户名：admin1990 密码：admin1990
 * 登录
 
-##安装问题
+#安装问题
 
-#关于验证码无法显示问题，可以参考：
+##关于验证码无法显示问题，可以参考：
 
 * http://www.douban.com/group/topic/12636401/
 * http://stackoverflow.com/questions/3544155/need-help-with-a-pil-error-ioerror-decoder-zip-not-available
 
-如果部安装pilow的话就安装pil
-###安装PIL
+###如果不安装pilow的话就安装pil,但是pil已经被放弃维护,所以建议安装pillow
 
+###安装PIL说明
 * 下载PIL源码地址 http://effbot.org/downloads/Imaging-1.1.6.tar.gz
 * 解压进入目录
 * python setup.py install
